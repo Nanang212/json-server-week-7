@@ -17,6 +17,7 @@ import {
   ReceiptOutlined,
   TimelineOutlined,
   WavesOutlined,
+  CarRentalOutlined,
 } from "@mui/icons-material";
 import avatar from "../../../assets/images/avatar.png";
 import logo from "../../../assets/images/logo.png";
@@ -163,7 +164,7 @@ const SideBar = () => {
             title="Manage Cars "
             path="/cars"
             colors={colors}
-            icon={<PeopleAltOutlined />}
+            icon={<CarRentalOutlined />}
           />
           <Item
             title="Contacts Information"
